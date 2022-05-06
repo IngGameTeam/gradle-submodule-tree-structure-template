@@ -8,8 +8,7 @@ buildscript {
 }
 val kotlin_version = "1.6.10"
 plugins {
-    kotlin("jvm") version kotlin_version
-    id("org.jetbrains.dokka") version kotlin_version apply false
+    kotlin("jvm") version "1.6.10"
 }
 
 java {

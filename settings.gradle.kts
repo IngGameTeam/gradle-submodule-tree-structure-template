@@ -4,7 +4,7 @@ if((JavaVersion.current() != JavaVersion.VERSION_17)) {
 }
 */
 
-//rootProject.name =
+rootProject.name = "example"
 
 fun circuitDir(dir: File) {
     dir.listFiles()?.forEach {
